@@ -1,7 +1,7 @@
 require_relative 'card'
 require_relative 'deck'
 require_relative 'hand'
-# require'pry'
+require'pry'
 
 class Blackjack
   attr_accessor :deck, :player, :hand, :player_hit, :play, :hit_card
